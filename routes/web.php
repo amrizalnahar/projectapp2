@@ -3,6 +3,8 @@
 use App\Models\Blog;
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\BlogController;
+use App\Models\Category;
+use App\Models\User;
 
 /*
 |--------------------------------------------------------------------------
@@ -32,8 +34,25 @@ Route::get('/register', function () {
     ]);
 });
 
-Route::get('/blogs', [BlogController::class, 'index'] );
+Route::get('/blogs', [BlogController::class, 'index']);
 Route::get('/blogs/{blog:slug}', [BlogController::class, 'show']);
+
+Route::get('/category/{category:slug}', function (Category $category) {
+    return view('frontend.categories', [
+        'title' => $category->jenis_kategori,
+        'blogs' => $category->blogs,
+        'category' => $category->jenis_kategori,
+    ]);
+});
+
+Route::get('/authors/{author:username}', function (User $author) {
+    return view('frontend.blogs', [
+        'title' => 'Authors Blogs',
+        'posts' => $author->blogs,
+    ]);
+});
+
+
 
 Route::get('/portfolio', function () {
     return view('frontend.portfolio', [

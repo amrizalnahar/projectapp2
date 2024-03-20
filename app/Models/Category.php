@@ -10,4 +10,9 @@ class Category extends Model
     use HasFactory;
 
     protected $guarded=['id'];
+
+    public function blogs(){
+        //    Category memiliki banyak blog
+       return  $this->hasMany(Blog::class);
+    }
 }

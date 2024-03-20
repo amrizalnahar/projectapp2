@@ -13,7 +13,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@700&display=swap" rel="stylesheet">
     <link rel="icon" href="img/icon-phi.png">
     @vite(['resources/css/app.css','resources/js/app.js'])
-    <title>Dev Phi Photograph | {{ $title }}</title>
+    <title>{{ config('app.name') }} | {{ $title }}</title>
 </head>
 
 <body>

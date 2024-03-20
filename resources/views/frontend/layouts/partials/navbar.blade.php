@@ -13,7 +13,7 @@
             </li>
             <li class="hover:opacity-70 py-4 px-6">
                 <span class="{{ ($title == "Blog") ? 'nav-line' : '' }}"></span>
-                    <a class="relative" href="/blogs">Blogs</a>
+                    <a class="relative" href="/blogs">Blog</a>
                 <span class="{{ ($title == "Blog") ? 'nav-line' : '' }}"></span>
             </li>
             <li class="hover:opacity-70 py-4 px-6">
