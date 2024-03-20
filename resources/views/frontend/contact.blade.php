@@ -3,8 +3,8 @@
 @section('container')
     <div class="container">
         <div>
-            <h3 class="text-4xl md:text-5xl lg:text-6xl text-primary-2 text-center">Contact<span
-                    class="text-4xl md:text-5xl lg:text-6xl text-primary-1 font-semibold">Us
+            <h3 class="text-4xl md:text-5xl lg:text-6xl text-primary-2 text-center">Hubungi<span
+                    class="text-4xl md:text-5xl lg:text-6xl text-primary-1 font-semibold">Kami
                 </span>
             </h3>
             <div class="h-[3px] w-12/12 bg-primary-2 block mt-2"></div>
