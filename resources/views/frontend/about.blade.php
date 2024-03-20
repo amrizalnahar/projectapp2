@@ -3,7 +3,7 @@
 @section('container')
     <div class="container">
         <div>
-            <h1 class="text-4xl md:text-5xl lg:text-6xl text-primary-2 text-left">Tentang</h1>
+            <h1 class="text-4xl md:text-5xl lg:text-6xl text-primary-2 text-left">Tentang Kami</h1>
             <div class="h-[3px] w-12/12 bg-primary-2 block mt-2"></div>
         </div>
 
