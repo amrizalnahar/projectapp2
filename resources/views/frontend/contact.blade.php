@@ -4,38 +4,38 @@
     <div class="container">
         <div>
             <h3 class="text-4xl md:text-5xl lg:text-6xl text-primary-2 text-center">Hubungi<span
-                    class="text-4xl md:text-5xl lg:text-6xl text-primary-1 font-semibold">Kami
+                    class="text-4xl md:text-5xl lg:text-6xl text-primary-1 font-semibold">Kami ya
                 </span>
             </h3>
             <div class="h-[3px] w-12/12 bg-primary-2 block mt-2"></div>
         </div>
 
         <p class="text-base md:text-xl text-primary-1 text-center my-3">Silahkan untuk meninggalkan pesan kepada
-            kami melalui form atau link sosial media di bawah ini</p>
+            kami melalui form atau link sosial media di bawah ini:</p>
 
         <div class="flex flex-wrap mt-6 justify-between">
 
             <div class="grid grid-cols-1 lg:w-1/2 w-full gap-3 text-primary-2">
                 <div class="w-full  flex">
-                    <label class="w-4/12 py-2 px-3 font-semo after:content-['*']" for="Nama">Nama</label>
+                    <label class="w-4/12 py-2 px-3 font-semo after:content-['*']" for="Nama">Input Nama</label>
                     <input class="w-8/12 py-2 px-3 text-sm border focus:outline-none focus:ring-1" type="text">
                 </div>
                 <div class="w-full  flex">
-                    <label class="w-4/12 py-2 px-3 after:content-['*']" for="email">Email</label>
+                    <label class="w-4/12 py-2 px-3 after:content-['*']" for="email">Input Email</label>
                     <input class="w-8/12 py-2 px-3 text-sm border focus:outline-none focus:ring-1" type="email">
                 </div>
                 <div class="w-full  flex">
-                    <label class="w-4/12 py-2 px-3" for="url">Website URL</label>
+                    <label class="w-4/12 py-2 px-3" for="url">Input Website URL</label>
                     <input class="w-8/12 py-2 px-3 text-sm border focus:outline-none focus:ring-1" type="url">
                 </div>
                 <div class="w-full  flex">
-                    <label class="w-4/12 py-2 px-3 after:content-['*']" for="message">Your Message</label>
+                    <label class="w-4/12 py-2 px-3 after:content-['*']" for="message">Tulis Pesan Kamu</label>
                     <textarea class="w-8/12 py-2 px-3 text-sm border focus:outline-none focus:ring-1" name="message"
                         id="message"></textarea>
                 </div>
                 <div class="w-full flex justify-center">
                     <button
-                        class="py-2 px-4 text-base bg-primary-2 rounded-lg text-white hover:opacity-70 hover:shadow-lg">Kirim</button>
+                        class="py-2 px-4 text-base bg-primary-2 rounded-lg text-white hover:opacity-70 hover:shadow-lg">Kirim Sekarang</button>
                 </div>
             </div>
             <div class="flex lg:w-1/2 w-full mt-3 md:mt-0">
